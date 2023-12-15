@@ -9,14 +9,47 @@
 </head>
 
 <body class="">
-
     <!-- Header Start -->
-    <!-- <header class="bg-transparent absolute top-o left-0 w-full flex items-center z-10 ">
+    <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
         <div class="container">
-            <div class="flex items-center"></div>
+            <div class="flex items-center justify-between relative">
+                <div class="px-4">
+                    <a href="#home" class="font-bold text-lg text-red-600 block py-6">Moreno</a>
+                </div>
+                <div class="flex items-center px-4 ">
+                    <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
+                        <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
+                    </button>
+
+                    <nav id="nav-menu"
+                        class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+                        <ul class="block lg:flex">
+                            <li class="group">
+                                <a href="#home" 
+                                    class="flex text-base text-dark py-2 mx-8 group-hover:text-gray-500">Home</a>
+                            </li>
+                            <li class="group">
+                                <a href="#about"
+                                    class="flex text-base text-dark py-2 mx-8 group-hover:text-gray-500">About</a>
+                            </li>
+                            <li class="group">
+                                <a href="#portfolio"
+                                    class="flex text-base text-dark py-2 mx-8 group-hover:text-gray-500">Portfolio</a>
+                            </li>
+                            <li class="group">
+                                <a href="#contact"
+                                    class="flex text-base text-dark py-2 mx-8 group-hover:text-gray-500">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
         </div>
-    </header> -->
+    </header>
     <!-- Header End -->
+
 
     <!-- Hero Section Start -->
     <section id="hero" class="mt-100px">
@@ -72,6 +105,7 @@
     </section>
     <!-- Hero End -->
 
+
     <!-- Line -->
     <div class="container mx-auto">
         <div id="line" class="flex flex-col items-center mt-50px z-50">
@@ -84,6 +118,7 @@
         </div>
     </div>
     <!-- Line End -->
+
 
     <!-- Portfolio Start -->
     <div class="portfolio">
@@ -163,6 +198,7 @@
     </div>
     <!-- Portfolio End -->
 
+
     <!-- Line -->
     <div class="container mx-auto">
         <div id="line" class="flex flex-col items-center z-50">
@@ -171,6 +207,7 @@
         </div>
     </div>
     <!-- Line End -->
+
 
     <!-- About Start -->
     <section id="about" class=" mb-48">
@@ -205,6 +242,7 @@
         </div>
     </section>
     <!-- About End -->
+    
 
     <!-- Footer Start -->
     <!-- <section id="contact" class="bg-black h-60">
@@ -275,7 +313,7 @@
         <div class="col-span-4 w-full h-full"></div>
     </div> -->
 
-    <script>
+    <!-- <script>
         document.addEventListener("DOMContentLoaded", function () {
             // Deteksi warna latar belakang dan atur warna garis
             detectBackgroundColor("line1", "bg-indigo-300");
@@ -302,7 +340,8 @@
             // Pilih warna kontras berdasarkan nilai kecerahan
             return brightness > 128 ? "#000" : "#fff";
         }
-    </script>
+    </script> -->
+    <script src="dist/js/script.js"></script>
 </body>
 
 </html>
