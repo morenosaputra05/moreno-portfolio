@@ -604,14 +604,6 @@ html {
   top: 100%;
 }
 
-.top-\[60\%\] {
-  top: 60%;
-}
-
-.top-\[65\%\] {
-  top: 65%;
-}
-
 .-z-10 {
   z-index: -10;
 }
@@ -684,10 +676,6 @@ html {
 
 .mb-5 {
   margin-bottom: 1.25rem;
-}
-
-.mb-\[30px\] {
-  margin-bottom: 30px;
 }
 
 .ml-1 {
@@ -830,36 +818,20 @@ html {
   width: 2.25rem;
 }
 
-.w-\[25\%\] {
-  width: 25%;
-}
-
 .w-\[250px\] {
   width: 250px;
-}
-
-.w-\[30\%\] {
-  width: 30%;
-}
-
-.w-full {
-  width: 100%;
-}
-
-.w-\[30px\] {
-  width: 30px;
 }
 
 .w-\[35\%\] {
   width: 35%;
 }
 
-.w-\[\] {
-  width: ;
-}
-
 .w-\[40\%\] {
   width: 40%;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .max-w-7xl {
@@ -901,10 +873,6 @@ html {
 
 .items-center {
   align-items: center;
-}
-
-.justify-end {
-  justify-content: flex-end;
 }
 
 .justify-center {
@@ -1003,6 +971,11 @@ html {
   padding-right: 0.5rem;
 }
 
+.px-20 {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
 .px-32 {
   padding-left: 8rem;
   padding-right: 8rem;
@@ -1028,16 +1001,6 @@ html {
   padding-bottom: 1.5rem;
 }
 
-.px-40 {
-  padding-left: 10rem;
-  padding-right: 10rem;
-}
-
-.px-20 {
-  padding-left: 5rem;
-  padding-right: 5rem;
-}
-
 .pl-10 {
   padding-left: 2.5rem;
 }
@@ -1048,10 +1011,6 @@ html {
 
 .pt-5 {
   padding-top: 1.25rem;
-}
-
-.text-left {
-  text-align: left;
 }
 
 .text-center {
@@ -1257,14 +1216,6 @@ html {
     margin-top: 0px;
   }
 
-  .md\:mt-5 {
-    margin-top: 1.25rem;
-  }
-
-  .md\:mt-\[5\] {
-    margin-top: 5;
-  }
-
   .md\:mt-\[50px\] {
     margin-top: 50px;
   }
@@ -1317,16 +1268,16 @@ html {
     margin-right: auto;
   }
 
+  .lg\:mb-\[30px\] {
+    margin-bottom: 30px;
+  }
+
   .lg\:mt-50px {
     margin-top: 50px;
   }
 
   .lg\:mt-\[20px\] {
     margin-top: 20px;
-  }
-
-  .lg\:mb-\[30px\] {
-    margin-bottom: 30px;
   }
 
   .lg\:block {
@@ -1353,16 +1304,16 @@ html {
     width: 472px;
   }
 
-  .lg\:w-full {
-    width: 100%;
-  }
-
   .lg\:w-\[25\%\] {
     width: 25%;
   }
 
   .lg\:w-\[30\%\] {
     width: 30%;
+  }
+
+  .lg\:w-full {
+    width: 100%;
   }
 
   .lg\:max-w-full {
