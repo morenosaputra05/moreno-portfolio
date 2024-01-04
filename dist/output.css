@@ -596,10 +596,6 @@ html {
   top: 0px;
 }
 
-.top-14 {
-  top: 3.5rem;
-}
-
 .top-full {
   top: 100%;
 }
@@ -652,10 +648,6 @@ html {
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
-}
-
-.-mt-36 {
-  margin-top: -9rem;
 }
 
 .-mt-50px {
@@ -750,14 +742,6 @@ html {
   height: 1rem;
 }
 
-.h-40 {
-  height: 10rem;
-}
-
-.h-44 {
-  height: 11rem;
-}
-
 .h-6 {
   height: 1.5rem;
 }
@@ -768,6 +752,10 @@ html {
 
 .h-9 {
   height: 2.25rem;
+}
+
+.h-\[100px\] {
+  height: 100px;
 }
 
 .h-\[230px\] {
@@ -828,6 +816,10 @@ html {
 
 .w-\[40\%\] {
   width: 40%;
+}
+
+.w-\[60\%\] {
+  width: 60%;
 }
 
 .w-full {
@@ -932,11 +924,6 @@ html {
   background-color: rgb(129 140 248 / var(--tw-bg-opacity));
 }
 
-.bg-slate-900 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(15 23 42 / var(--tw-bg-opacity));
-}
-
 .bg-transparent {
   background-color: transparent;
 }
@@ -1035,6 +1022,10 @@ html {
 
 .text-24px {
   font-size: 24px;
+}
+
+.text-\[128px\] {
+  font-size: 128px;
 }
 
 .text-\[16px\] {
@@ -1201,6 +1192,10 @@ html {
 }
 
 @media (min-width: 640px) {
+  .sm\:w-14 {
+    width: 3.5rem;
+  }
+
   .sm\:text-sm {
     font-size: 0.875rem;
     line-height: 1.25rem;
@@ -1234,8 +1229,8 @@ html {
     position: absolute;
   }
 
-  .lg\:top-\[50\%\] {
-    top: 50%;
+  .lg\:top-\[35\%\] {
+    top: 35%;
   }
 
   .lg\:col-span-2 {
@@ -1268,6 +1263,10 @@ html {
     margin-right: auto;
   }
 
+  .lg\:-mt-\[6\%\] {
+    margin-top: -6%;
+  }
+
   .lg\:mb-\[30px\] {
     margin-bottom: 30px;
   }
@@ -1296,6 +1295,10 @@ html {
     display: none;
   }
 
+  .lg\:h-\[160px\] {
+    height: 160px;
+  }
+
   .lg\:h-desk {
     height: 375px;
   }
@@ -1310,6 +1313,10 @@ html {
 
   .lg\:w-\[30\%\] {
     width: 30%;
+  }
+
+  .lg\:w-\[40\%\] {
+    width: 40%;
   }
 
   .lg\:w-full {
@@ -1350,9 +1357,9 @@ html {
     background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   }
 
-  .lg\:px-32 {
-    padding-left: 8rem;
-    padding-right: 8rem;
+  .lg\:px-40 {
+    padding-left: 10rem;
+    padding-right: 10rem;
   }
 
   .lg\:text-left {
@@ -1393,19 +1400,11 @@ html {
 }
 
 @media (min-width: 1280px) {
-  .xl\:h-78\% {
-    height: 78%;
-  }
-
-  .xl\:h-80 {
-    height: 20rem;
-  }
-
-  .xl\:h-80\% {
-    height: 80%;
-  }
-
   .xl\:bg-95\% {
     background-size: 95%;
+  }
+
+  .xl\:text-\[240px\] {
+    font-size: 240px;
   }
 }
