@@ -1370,36 +1370,55 @@ html {
     text-align: center;
   }
 
-  .lg\:text-240px {
-    font-size: 240px;
+  .lg\:justify-center {
+    justify-content: center;
   }
 
-  .lg\:text-24px {
-    font-size: 24px;
+  .lg\:text-40px {
+    font-size: 40px;
   }
 
-  .lg\:text-5xl {
-    font-size: 3rem;
-    line-height: 1;
+  .lg\:border-black {
+    --tw-border-opacity: 1;
+    border-color: rgb(0 0 0 / var(--tw-border-opacity));
   }
 
   .lg\:text-\[40px\] {
     font-size: 40px;
   }
 
-  .lg\:text-black {
-    --tw-text-opacity: 1;
-    color: rgb(0 0 0 / var(--tw-text-opacity));
+  .lg\:bg-transparent {
+    background-color: transparent;
   }
 
-  .lg\:shadow-none {
-    --tw-shadow: 0 0 #0000;
-    --tw-shadow-colored: 0 0 #0000;
-    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  .lg\:bg-white {
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   }
 }
 
 @media (min-width: 1280px) {
+  .xl\:mx-56 {
+    margin-left: 14rem;
+    margin-right: 14rem;
+  }
+
+  .xl\:mt-5 {
+    margin-top: 1.25rem;
+  }
+
+  .xl\:h-78\% {
+    height: 78%;
+  }
+
+  .xl\:h-80 {
+    height: 20rem;
+  }
+
+  .xl\:h-80\% {
+    height: 80%;
+  }
+
   .xl\:bg-95\% {
     background-size: 95%;
   }
