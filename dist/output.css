@@ -747,10 +747,6 @@ html {
   margin-top: -1.75rem;
 }
 
-.-mt-\[160px\] {
-  margin-top: -160px;
-}
-
 .mb-1 {
   margin-bottom: 0.25rem;
 }
@@ -1041,10 +1037,6 @@ html {
 
 .w-full {
   width: 100%;
-}
-
-.w-\[45\%\] {
-  width: 45%;
 }
 
 .max-w-7xl {
