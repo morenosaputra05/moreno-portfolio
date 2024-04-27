@@ -5,10 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="dist/output.css">
-    <title>Moreno</title>
+    <title>Moreno | Portfolio </title>
 </head>
 
 <body class="">
+
     <!-- Header Start -->
     <header class="bg-transparent absolute top-0 left-0 w-full flex justify-center items-center  z-10">
         <div class="container">
@@ -53,24 +54,28 @@
 
     <!-- Hero Section Start -->
     <section id="hero" class="mt-[100px]">
-        <h1 class="text-140px text-smoke lg:text-240px absolute font-semibold pt-2 -z-10">WEL</h1>
+        <marquee scrollamount="10" behavior="" direction=""
+            class="text-140px text-smoke lg:text-240px absolute font-semibold pt-2 -z-10">WELCOME</marquee>
 
         <div class="flex flex-col h-mobile lg:h-desk justify-center">
             <div class="bg-black h-mobile lg:h-desk w-1/4 absolute -z-10"></div>
-            <div class="title mx-[10%] lg:mx-[17%]">
-                <h3 class="text-[22px] font-light tracking-8% lg:text-[40px] lg:w-full"><span
-                        class="text-white">Hello</span> my name is
-                    Moreno</h3>
-                <h2 class="text-[26px] w-[250px] tracking-5% lg:text-5xl lg:w-472px font-medium lg:mt-[20px]"><span
-                        class="text-white">As
-                        D</span>eveloper and <span class="text-white">Web</span> Designer</h2>
+            <div class="container mx-[160px]">
+                <div class="title lg:pl-[9%]">
+                    <h3 class="text-[22px] font-light tracking-5% lg:text-[40px] lg:w-full"><span
+                            class="text-white">Hello</span> my name is
+                        Moreno</h3>
+                    <h2 class="text-[26px] w-[250px] tracking-5% lg:text-5xl lg:w-472px font-medium lg:mt-[20px]"><span
+                            class="text-white">As
+                            D</span>eveloper and <span class="text-white">Web</span> Designer</h2>
+                </div>
             </div>
         </div>
+
         <div class="media container mx-auto">
             <div class="flex flex-row -mt-7 items-center justify-between lg:grid lg:grid-cols-6">
                 <h5
-                    class="text-center text-[16px] mx-[48px] lg:text-24px font-light lg:col-span-2 lg:col-start-3 lg:col-end-5 ">
-                    <span class=" lg:text-black text-white ml-5">Let m</span>e Show You
+                    class="text-center text-[16px] mx-[48px] lg:text-24px font-light min-[380px]:mx-[25px] min-[380px]:mr-[-10px] lg:col-span-2 lg:col-start-3 lg:col-end-5 ">
+                    <span class=" lg:text-black text-white ml-5">Let me </span>Show You
                 </h5>
                 <div
                     class="list flex flex-row gap-4 md:mt-0 md:ml-6 lg:col-span-2 lg:col-start-5 lg:col-end-7 lg:justify-end">
@@ -110,7 +115,7 @@
 
     <!-- Line -->
     <div class="container mx-auto">
-        <div id="line" class="flex mx-[20px]  mt-[-30px] lg:justify-center lg:mt-50px z-50">
+        <div id="line" class="flex mx-[20px] mt-[-30px] min-[380px]:mx-0 lg:justify-center lg:mt-50px z-50">
             <div class="items-center flex flex-col">
                 <div id="line1" class="w-2px h-24 bg-black"></div>
                 <div
@@ -130,85 +135,104 @@
     <!-- Portfolio Start -->
     <div class="portfolio">
 
-        <!-- Section-1 -->
+
         <div class="w-full h-screen xl:bg-95% relative bg-cover bg-no-repeat flex"
             style="background-image: url('img/background.png');">
             <div class="container mx-auto flex">
                 <div class="flex h-full w-full lg:justify-center absolute container">
-                    <div class="h-full w-2px bg-white absolute container mx-[51px] flex justify-center lg:mx-auto">
-                        <div class="absolute w-4 h-4 rounded-full border-white bg-black  border-3 z-10 justify-center flex mt-3"></div>
+                    <div class="h-[78%] w-2px bg-white absolute container mx-[51px] flex justify-center lg:mx-auto">
+                        <div
+                            class="absolute w-4 h-4 rounded-full border-white bg-black  border-3 z-10 justify-center flex mt-3">
+                        </div>
                     </div>
                 </div>
-
+                <!-- content -->
                 <div class="content  container px-20 lg:px-32  flex flex-col ">
-                    <div class="ml-auto mt-[10%]">
+                    <!-- Decnos.art -->
+                    <a class="ml-auto mt-[10%] relative block" href="link/decnos_art.html">
                         <div class="title">
-                            <h3 class="text-white text-[24px] border-b-3 w-[35%] lg:w-[25%] text-right lg:mb-[30px] h-[40px] font-medium">acc6p9</h3>
+                            <h3
+                                class="text-white text-[24px] border-b-3 w-[35%] lg:w-[25%] text-right lg:mb-[30px] h-[40px] font-medium">
+                                Decnos.art</h3>
                         </div>
                         <img src="img/acc6p9_web.svg" alt="" class="acc6p9 ml-4  h-[230px]">
-                    </div>
-                    <div class="lg:absolute md:mt-[50px] lg:top-[50%]">
+                    </a>
+                    <!-- Tori Caffe -->
+                    <a class="lg:absolute md:mt-[50px] lg:top-[30%] lg:block" href="link/tori_caffe.html">
                         <div class="title flex lg:justify-end">
-                            <h3 class="text-white text-[24px] border-b-3 w-[40%] lg:w-[30%] text-right lg:text-left lg:mb-[30px] h-[40px] font-medium">Tori Cafe</h3>
+                            <h3
+                                class="text-white text-[24px] border-b-3 w-[40%] lg:w-[30%] text-right lg:text-left lg:mb-[30px] h-[40px] font-medium">
+                                Tori Cafe</h3>
                         </div>
                         <img src="img/ToriCaffe_Web.svg" alt="" class="tori mr-4" style="height: 230px;">
-                    </div>
+                    </a>
                 </div>
             </div>
         </div>
 
-        <!-- Line -->
-        <!-- <div class="container mx-auto">
-            <div id="line" class="flex flex-col items-center -mt-36 z-50">
+
+        <div class="container mx-auto">
+            <div id="line" class="flex flex-col items-center -mt-[160px] z-50">
                 <div id="line1" class="w-2px h-40 bg-black"></div>
             </div>
-        </div> -->
+        </div>
 
-        <!-- Section-2 -->
-        <!-- <div class="w-full h-screen xl:bg-95% bg-right-top relative bg-cover bg-no-repeat flex"
+
+        <div class="w-full h-screen xl:bg-95% bg-right-top relative bg-cover bg-no-repeat flex"
             style="background-image: url('/img/bg2.png');">
             <div class="container mx-auto flex ">
                 <div id="line" class="line h-full flex justify-center container mx-auto absolute -z-1">
                     <div class="absolute w-4 h-4 rounded-full border-white border-3 bg-black z-10 mt-5"></div>
                     <div id="line3" class="xl:h-80% w-2px bg-white"></div>
                 </div>
-                <div class="content container px-32 flex justify-between items-center">
-                    <div class="ml-auto">
-                        <img src="img/pengantar_barang.png" alt="" class="acc6p9" style="height: 558px;">
-                    </div>
+                <div class="content  container px-20 lg:px-32  flex flex-col ">
+
+                    <a class="ml-auto mt-[10%] relative block" href="link/iot.html">
+                        <div class="title">
+                            <h3
+                                class="text-white text-[24px] border-b-3 w-[35%] lg:w-[25%] text-right lg:mb-[30px] h-[40px] font-medium">
+                                IOT</h3>
+                        </div>
+                        <img src="img/iot.svg" alt="" class="acc6p9 ml-4  h-[230px]">
+                    </a>
+
+                    <a class="lg:absolute block md:mt-[50px] lg:top-[30%]" href="link/line_follower.html">
+                        <div class="title flex lg:justify-end">
+                            <h3
+                                class="text-white text-[24px] border-b-3 w-[40%] lg:w-[30%] text-right lg:text-left lg:mb-[30px] h-[40px] font-medium">
+                                Line Follower</h3>
+                        </div>
+                        <img src="img/line_follower.svg" alt="" class="tori mr-4" style="height: 230px;">
+                    </a>
                 </div>
             </div>
-        </div> -->
+        </div>
 
-        <!-- Line -->
-        <!-- <div class="container mx-auto">
+
+        <div class="container mx-auto">
             <div id="line" class="flex flex-col items-center -mt-36 z-50">
-                <div id="line1" class="w-2px h-44 bg-black"></div>
+                <div id="line1" class="w-2px h-40 bg-black"></div>
             </div>
-        </div> -->
-
-        <!-- Section 3 -->
-        <!-- <div class="w-full h-screen xl:bg-95% relative bg-cover bg-no-repeat flex"
-            style="background-image: url('/img/background.png');">
-            <div class="container mx-auto flex ">
-                <div id="line" class="line h-full flex justify-center container mx-auto absolute -z-1">
-                    <div class="absolute w-4 h-4 rounded-full border-white border-3 bg-black z-10 mt-5"></div>
-                    <div id="line3" class="xl:h-78% w-2px bg-white"></div>
-                </div>
-                <h1 class="text-140px text-smoke-black lg:text-240px absolute font-semibold pt-2 ">ROBOTIC</h1>
-                <div class="content container px-32 flex justify-between items-center">
-                    <div class="ml-auto">
-                        <img src="img/acc6p9_web.svg" alt="" class="acc6p9" style="height: 230px;">
-                    </div>
-                    <div class="lg:absolute top-14">
-                        <img src="img/robot.png" alt="" class="tori" style="height: 230px;">
-                        <h3 class="text-white absolute">Line Follower Robot</h3>
-                    </div>
-                </div>
-            </div>
-        </div> -->
+        </div>
     </div>
-    <!-- Portfolio End -->
+
+    <!-- Contact -->
+    <div class="contact bg-black h-[316px] w-[1105px]">
+        <div class="mx-40 py-[40px]">
+            <h2 class="text-white text-[48px] font-semibold mb-[40px]">Find me on</h2>
+            <div class="sosmed">
+                <!-- instagram -->
+                <div class="instagram mb-[35px]">
+                    <a href="instagram.com" class="text-white text-[22px] font-light">Instagram : acc6p9</a>
+                </div>
+                <!-- mail -->
+                <div class="mail">
+                    <p class="text-[22px] font-light text-white">Gmail : ssaputramoreno@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
 
     <!-- Line -->
@@ -224,7 +248,7 @@
     <!-- About Start -->
     <!-- <section id="about" class=" mb-48">
         <div class="w-full h-screen relative bg-cover bg-no-repeat flex">
-            <div class="bg-slate-900 max-h-390px h-full w-1/4 absolute -z-10"></div>
+            <div class="bg-black max-h-390px h-full w-1/4 absolute -z-10"></div>
             <div class="container mx-auto flex ">
                 <div id="line" class="line h-full flex justify-center container mx-auto absolute -z-1">
                     <div class="absolute w-4 h-4 rounded-full border-black border-3 bg-white z-10 mt-5"></div>
@@ -353,6 +377,7 @@
         }
     </script> -->
     <script src="dist/js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
 </body>
 
 </html>

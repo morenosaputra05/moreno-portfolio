@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../dist/output.css">
+    <title>Decnos.art</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css"  rel="stylesheet" />
+</head>
+
+<body>
+    <div class="flex flex-row">
+        <div class="pl-0 pr-0 basis-8/12 flex items-center">
+
+
+            <div id="indicators-carousel" class="relative w-full" data-carousel="static">
+                <!-- Carousel wrapper -->
+                <div class="relative h-56 overflow-hidden md:h-96 flex items-center">
+                    <!-- Item 1 -->
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
+                        <video class="absolute h-auto max-w-lg block -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" controls>
+                            <source src="../img/line_follower_video.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <!-- Item 2 -->
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <img src="../img/line_follower_photo.jpeg"
+                            class="absolute h-auto max-w-lg block -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                    </div>
+
+                </div>
+                <!-- Slider indicators -->
+                <div class="absolute z-30 flex -translate-x-1/2 space-x-3 rtl:space-x-reverse bottom-5 left-1/2">
+                    <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1"
+                        data-carousel-slide-to="0"></button>
+                    <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2"
+                        data-carousel-slide-to="1"></button>
+                </div>
+                <!-- Slider controls -->
+                <button type="button"
+                    class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+                    data-carousel-prev>
+                    <span
+                        class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                        <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M5 1 1 5l4 4" />
+                        </svg>
+                        <span class="sr-only">Previous</span>
+                    </span>
+                </button>
+                <button type="button"
+                    class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+                    data-carousel-next>
+                    <span
+                        class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                        <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="m1 9 4-4-4-4" />
+                        </svg>
+                        <span class="sr-only">Next</span>
+                    </span>
+                </button>
+            </div>
+
+        </div>
+        <div class="bd-sidebar basis-4/12 h-full">
+            <div class="container py-[30px] px-[40px] w-4/12 h-[500px] ">
+                <div class="content mb-[25px]">
+                    <div class=" flex row  justify-between mb-4">
+                        <div class="back_home  ml-0 flex items-center">
+                            <a href="../index.html" title="Go back home" placement="bottom"
+                                class="flex items-center bg-black h-[26px] w-[26px]  rounded-full">
+                                <img src="../img/Arrow 1.svg" alt="" class="h-[16px] w-[15px] ml-[5px]">
+                            </a>
+                        </div>
+                        <div class="nextP flex items-center">
+                            <a href="tori_caffe.html" title="Previous" placement="bottom"
+                                class="font-black text-[24px] mr-2">←</a>
+                            <span class="text-black text-[24px] font-light">/</span>
+                            <a href="iot.html" title="Next" placement="bottom" class="font-black text-[24px] ml-2">→</a>
+                        </div>
+                    </div>
+                    <h3 class="text-[22px] font-medium">#Robotic, #Arduino, #C++, Electro</h3>
+                    <h2 class="text-[36px] font-semibold py-[30px]">
+                        line follower carriage</h2>
+                    <p class="tracking-[1px] text-[20px]">
+                        The following is our final semester assignment assessment. The concept of designing a train for
+                        a line following robot is the right step that we took. By using an Arduino Uno as a
+                        microcontroller and implementing the C++ programming language, we achieved the level of
+                        sophistication required for this project.</p>
+                </div>
+                <div class="bottom-line bottom-0 flex row items-center ">
+                    <div class="line h-[3px] bg-black w-2 grow"></div>
+                    <div class="ket pl-5 text-[16px] font-semibold">03</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="dist/js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+</body>
+
+</html>

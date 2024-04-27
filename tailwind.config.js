@@ -1,6 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["index.html"],
+  plugins:[
+    require('flowbite/plugin')
+  ],
+  content: ["index.html","link/decnos_art.html", "link/iot.html", "link/line_follower.html", "link/tori_caffe.html", "./node_modules/flowbite/**/*.js"],
   theme: {
     borderWidth:{
       "3":"3px",
