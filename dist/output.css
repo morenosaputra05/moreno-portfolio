@@ -700,8 +700,9 @@ html {
   grid-column: span 4 / span 4;
 }
 
-.row-auto {
-  grid-row: auto;
+.mx-40 {
+  margin-left: 10rem;
+  margin-right: 10rem;
 }
 
 .mx-8 {
@@ -734,51 +735,6 @@ html {
   margin-right: auto;
 }
 
-.mx-32 {
-  margin-left: 8rem;
-  margin-right: 8rem;
-}
-
-.mx-44 {
-  margin-left: 11rem;
-  margin-right: 11rem;
-}
-
-.mx-40 {
-  margin-left: 10rem;
-  margin-right: 10rem;
-}
-
-.my-\[45px\] {
-  margin-top: 45px;
-  margin-bottom: 45px;
-}
-
-.my-16 {
-  margin-top: 4rem;
-  margin-bottom: 4rem;
-}
-
-.my-10 {
-  margin-top: 2.5rem;
-  margin-bottom: 2.5rem;
-}
-
-.my-11 {
-  margin-top: 2.75rem;
-  margin-bottom: 2.75rem;
-}
-
-.my-\[\] {
-  margin-top: ;
-  margin-bottom: ;
-}
-
-.my-\[40px\] {
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
-
 .-mt-36 {
   margin-top: -9rem;
 }
@@ -789,6 +745,10 @@ html {
 
 .-mt-7 {
   margin-top: -1.75rem;
+}
+
+.-mt-\[160px\] {
+  margin-top: -160px;
 }
 
 .mb-1 {
@@ -813,6 +773,14 @@ html {
 
 .mb-\[25px\] {
   margin-bottom: 25px;
+}
+
+.mb-\[35px\] {
+  margin-bottom: 35px;
+}
+
+.mb-\[40px\] {
+  margin-bottom: 40px;
 }
 
 .ml-0 {
@@ -879,34 +847,6 @@ html {
   margin-top: 100px;
 }
 
-.-mt-3 {
-  margin-top: -0.75rem;
-}
-
-.-mt-\[144px\] {
-  margin-top: -144px;
-}
-
-.-mt-\[150px\] {
-  margin-top: -150px;
-}
-
-.-mt-\[155px\] {
-  margin-top: -155px;
-}
-
-.-mt-\[160px\] {
-  margin-top: -160px;
-}
-
-.mb-\[35px\] {
-  margin-bottom: 35px;
-}
-
-.mb-\[40px\] {
-  margin-bottom: 40px;
-}
-
 .block {
   display: block;
 }
@@ -959,6 +899,10 @@ html {
   height: 10rem;
 }
 
+.h-56 {
+  height: 14rem;
+}
+
 .h-6 {
   height: 1.5rem;
 }
@@ -983,6 +927,10 @@ html {
   height: 26px;
 }
 
+.h-\[316px\] {
+  height: 316px;
+}
+
 .h-\[3px\] {
   height: 3px;
 }
@@ -999,6 +947,10 @@ html {
   height: 78%;
 }
 
+.h-auto {
+  height: auto;
+}
+
 .h-full {
   height: 100%;
 }
@@ -1009,30 +961,6 @@ html {
 
 .h-screen {
   height: 100vh;
-}
-
-.h-56 {
-  height: 14rem;
-}
-
-.h-auto {
-  height: auto;
-}
-
-.h-5 {
-  height: 1.25rem;
-}
-
-.h-52 {
-  height: 13rem;
-}
-
-.h-\[316\] {
-  height: 316;
-}
-
-.h-\[316px\] {
-  height: 316px;
 }
 
 .w-1 {
@@ -1087,6 +1015,10 @@ html {
   width: 2.25rem;
 }
 
+.w-\[1105px\] {
+  width: 1105px;
+}
+
 .w-\[15px\] {
   width: 15px;
 }
@@ -1111,16 +1043,8 @@ html {
   width: 100%;
 }
 
-.w-96 {
-  width: 24rem;
-}
-
-.w-80 {
-  width: 20rem;
-}
-
-.w-\[1105px\] {
-  width: 1105px;
+.w-\[45\%\] {
+  width: 45%;
 }
 
 .max-w-7xl {
@@ -1149,10 +1073,6 @@ html {
 
 .basis-4\/12 {
   flex-basis: 33.333333%;
-}
-
-.basis-7\/12 {
-  flex-basis: 58.333333%;
 }
 
 .basis-8\/12 {
@@ -1286,14 +1206,6 @@ html {
 
 .gap-4 {
   gap: 1rem;
-}
-
-.gap-\[28px\] {
-  gap: 28px;
-}
-
-.gap-\[35px\] {
-  gap: 35px;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
@@ -1583,10 +1495,6 @@ html {
   font-size: 24px;
 }
 
-.text-\[100px\] {
-  font-size: 100px;
-}
-
 .text-\[16px\] {
   font-size: 16px;
 }
@@ -1609,6 +1517,10 @@ html {
 
 .text-\[36px\] {
   font-size: 36px;
+}
+
+.text-\[48px\] {
+  font-size: 48px;
 }
 
 .text-base {
@@ -1634,14 +1546,6 @@ html {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.text-\[34px\] {
-  font-size: 34px;
-}
-
-.text-\[48px\] {
-  font-size: 48px;
 }
 
 .font-black {
@@ -1718,10 +1622,6 @@ html {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-\[\] {
-  color: ;
 }
 
 .opacity-0 {
@@ -1803,11 +1703,6 @@ html {
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
-.hover\:border-smoke:hover {
-  --tw-border-opacity: 1;
-  border-color: rgb(219 219 219 / var(--tw-border-opacity));
-}
-
 .hover\:bg-black:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
@@ -1846,11 +1741,6 @@ html {
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.hover\:text-smoke:hover {
-  --tw-text-opacity: 1;
-  color: rgb(219 219 219 / var(--tw-text-opacity));
 }
 
 .focus\:outline-none:focus {
@@ -2243,14 +2133,6 @@ html {
 
   .xl\:h-80\% {
     height: 80%;
-  }
-
-  .xl\:h-20 {
-    height: 5rem;
-  }
-
-  .xl\:h-\[20px\] {
-    height: 20px;
   }
 
   .xl\:bg-95\% {
